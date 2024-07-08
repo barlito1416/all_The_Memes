@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="30">
+    <style>
+        body {
+            background-color: #b62020b5; /* Light gray background */
+            font-family: Arial, sans-serif; /* Default font */
+            color: #333; /* Default text color */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Here are some memes to entertain you! It will automatically refresh in 30 seconds.</p>
+    <p><img src="{{ meme_pic }}" alt="Meme"></p>
+    <p>Current subreddit: {{ subreddit }}</p>
+</body>
+</html>
